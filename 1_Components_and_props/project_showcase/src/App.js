@@ -1,10 +1,23 @@
+import ComponentTest from "./components/component";
+import Header from "./components/header";
+import ProjectForm from "./components/projectForm";
+import ProjectList from "./components/projectList";
+import projects from "./projects";
 function App() {
   // Lets create a basic react component and bring it in!
   // Lets go ahead and create all the components mentioned starting
   // with the header!
   // Next the project form
   // Now the project list, we'll pass the projects into it
-  return <div className="App">Project showcase</div>;
+  const test = <p>Paragraph tag</p>;
+  return (
+    <div className="App">
+      <Header />
+      <ComponentTest />
+      <ProjectForm />
+      <ProjectList projects={projects} />
+    </div>
+  );
 }
 
 export default App;
