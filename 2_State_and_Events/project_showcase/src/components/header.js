@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from "react";
 
 function Header() {
@@ -18,3 +19,10 @@ function Header() {
 }
 
 export default Header;
+=======
+function Header(){
+    return <div>Header</div>
+}
+
+export default Header
+>>>>>>> 2fa9661d384fbea71d33b0031ed0fb8247ad9cfc
